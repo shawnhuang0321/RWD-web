@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Brunch-早午餐</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<link href="dist/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<link href="dist/fontawesome_free_5_0_10/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--	This is Navbar	-->
+	
+	<nav class="navbar fixed-top navbar-expand-lg" style="background-color: white;">
+	  <div class="container">
+		<!--	Logo		-->
+		<a class="navbar-brand logo" href="index.html">
+			<img src="img/logo.svg" alt="Brunch" height="80">
+		</a>
+		<!--	Bar		-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  	<!-- <span class="navbar-toggler-icon fas fa-bars"></span> -->
+			<span class="fas fa-bars"></span>
+		</button>
+		<!--	Linkbar		-->
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link about-btn" href="#about">關於我們</a>
+				<a class="nav-item nav-link menu1-btn" href="#menu1">漢堡系列</a>
+				<a class="nav-item nav-link menu2-btn" href="#menu2">飲品系列</a>
+				<a class="nav-item nav-link contact-btn" href="#map">聯絡我們</a>
+				<div class="iconbar">
+					<a href="#" class="fab fa-facebook-square"></a>
+					<a href="#" class="fas fa-phone-square"></a>
+					<a href="#" class="fas fa-map-marker-alt"></a>
+					<a href="#" class="fab fa-instagram"></a>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</nav>
+	
+<!--	Carousel	-->
+	
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+	  <ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	  </ol>
+	  <div class="carousel-inner">
+		<div class="carousel-item active"> <img class="d-block w-100" src="img/banner_2.jpg" alt="First slide"> </div>
+		<div class="carousel-item"> <img class="d-block w-100" src="img/banner_1.jpg" alt="Second slide"> </div>
+		<div class="carousel-item"> <img class="d-block w-100" src="img/banner_3.jpg" alt="Third slide"> </div>
+		<div class="carousel-item"> <img class="d-block w-100" src="img/banner_4.jpg" alt="Third slide"> </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+	</div>
+	
+<!--	This is About	-->
+	
+	<div class="container" id="about">
+		<div class="row pd_tb_30">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				<img src="img/about_s.jpg" alt="" class="img-fluid rounded">
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				<h1 class="pd_tb_30">晨食坊</h1>
+				<p>因為愛·做早餐。</p>
+				<p>宛如戰場的晨間時光， 
+					<br>預留小片刻悠閒， 
+					<br>在剛剛好的料理時間內， 
+					<br>吃一餐美味又安心的朝食， 
+					<br>為即將展開的一天，灌注滿滿的元氣。</p>
+				<p>中式、西式，讓挑剔的嘴不煩膩。 
+					<br>一個人吃好愜意，全家人吃超幸福，點餐，享受料理被期待的虛榮感！</p>
+				<p>全家共食也有一人靜心獨享，均衡攝取蛋白質、碳水化合物、蔬果、水分和少量的脂肪，尤其蛋白質、碳水化合物和水分是固定出席的要素，蔬果如果不	方便，留著午晚餐多補充一些也無不可，以自己覺得愉快舒心的方式進行。</p>
+				<p>早餐很重要，請記得，天天吃早餐！</p>
+			</div>
+		</div>
+	</div>
+	
+<!--	This is Burger Series	-->
+	
+	<div class="container pd_tb_30" id="menu1">
+		<h1 class="pd_tb_30 text-center">漢堡系列</h1>
+		<hr>
+  		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<h2>漢堡塔</h2>
+				<h3>Second Floor House Burger</h3>
+				<p>( +$10可享有起司醬搭配 )</p>
+				<p>鮮嫩多汁的漢堡牛肉排及外酥內軟的炸嫩魚排為首，夾入烤至金黃散發芝麻香的麵包中，再領著	酥脆培根、起司片及紫洋蔥，咬進口中還有美乃滋及蜂蜜芥末醬共舞，而加量又升級的漢堡排及	肉質細緻鮮美的嫩魚排更交織出經典口感。</p>
+				<p>( 附細薯 )
+				<br>( 使用零藥物安心魚 )</p>
+				<p>NT.370</p>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<h2>藍帶蜜桃炸雞堡</h2>
+				<h3>Le Cordon Bleu Chicken Gratin Burger With Grilled Peaches</h3>
+				<p>( +$10可享有起司醬搭配 )</p>
+				<p>酥脆香嫩的藍帶雞內含香濃起司，搭配香烤過的水蜜桃片，不同層次多汁香甜，夾入新鮮生菜、番茄、紫洋蔥，配上炸細薯，一口咬下大大滿足。</p>
+				<p>( 附細薯 )</p>
+				<p>NT.330</p>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 horizon-center">
+				<img src="img/hamburger/hamburger_1.jpg" alt="" class="img-fluid rounded">
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<h2>韓式豬五花泡菜堡</h2>
+				<h3>Korean Style Pork Belly Burger</h3>
+				<p>( +$10可享有起司醬搭配 )</p>
+				<p>豬五花肉排均勻的裹上道地韓式烤肉醬，堆疊上正統韓式泡菜，微辣口味和軟嫩的口感，適合喜愛韓國風味的你。</p>
+				<p>( 附細薯 )</p>
+				<p>NT.290</p>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 horizon-center">
+				<img src="img/hamburger/hamburger_2.jpg" alt="" class="img-fluid rounded">
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<h2>黑胡椒薯餅牛肉起司堡</h2>
+				<h3>Black Pepper & Potato Cake Cheese Burger</h3>
+				<p>( +$10可享有起司醬搭配 )</p>
+				<p>金黃酥脆的薯餅夾入覆蓋著經典美國起司的牛肉漢堡肉，淋上香濃微辛的黑胡椒醬，紮實而飽滿。</p>
+				<p>( 附細薯 )</p>
+				<p>NT.290</p>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 horizon-center">
+				<img src="img/hamburger/hamburger_3.jpg" alt="" class="img-fluid rounded">
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				<h2>蜜糖洋蔥牛肉漢堡</h2>
+				<h3>Beef Burgers with Caramelized Onions</h3>
+				<p>( +$10可享有起司醬搭配 )</p>
+				<p>香氣十足的白芝麻麵包與蜂蜜炒焦糖洋蔥、漢堡排，最後再灑上天然海鹽，疊出特別新滋味，貳樓美食國度首領法蘭克也難以抵擋！一口咬下，白芝麻麵	包的香氣及餡料爆香的滋味讓人口齒留香。</p>
+				<p>( 附細薯 )</p>
+				<p>NT.330</p>
+			</div>
+		</div>
+	</div>
+	
+<!--	This is Drink series	-->
+	
+	<div class="container pd_tb_30 text-dark" id="menu2">
+		<h1 class="pd_tb_30 text-center">飲品系列</h1>
+		<hr>
+		<div class="text-center pd_tb_30">
+			<button type="button" class="btn btn-outline-dark m-lr-10 coffee-btn">咖啡飲品</button>
+			<button type="button" class="btn btn-outline-dark m-lr-10 tea-btn">茶類飲品</button>
+			<button type="button" class="btn btn-outline-dark m-lr-10 ice-btn">冰沙飲品</button>
+		</div>
+		<!--	coffee	-->
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 coffee">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>濃縮咖啡(HOT) </td>
+							<td class="text-right">$60</td>
+					  	</tr>
+						<tr>
+							<td>Espresso</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>拿鐵咖啡(HOT/ICE)</td>
+							<td class="text-right"> $115</td>
+						</tr>
+						<tr>
+							<td>Cafe Latte</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>摩卡咖啡(HOT/ICE)</td>
+							<td class="text-right"> $125</td>
+						</tr>
+						<tr>
+							<td>Cafe Mocha</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>布朗尼拿鐵(HOT/ICE)</td>
+							<td class="text-right"> $125</td>
+						</tr>
+						<tr>
+							<td>Brownie Latte</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 coffee">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>美式咖啡(HOT/ICE)</td>
+							<td class="text-right"> $90</td>
+						</tr>
+						<tr>
+							<td>Cafe Americano</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>卡布奇諾(HOT/ICE)</td>
+							<td class="text-right"> $115</td>
+						</tr>
+						<tr>
+							<td>Cappuccino</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>焦糖瑪奇朵(HOT/ICE)</td>
+							<td class="text-right"> $125</td>
+						</tr>
+						<tr>
+							<td>Caramel Macchiato</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>漂浮冰咖啡(ICE)</td>
+							<td class="text-right"> $125</td>
+						</tr>
+						<tr>
+							<td>Iced Coffee Float</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!--	tea	-->
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tea">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>大吉嶺紅茶(HOT壺裝) </td>
+							<td class="text-right">$120</td>
+						</tr>
+						<tr>
+							<td>Hediard Darjeeling Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>洋甘菊茶(HOT壺裝) </td>
+							<td class="text-right">$120</td>
+						</tr>
+						<tr>
+							<td>Chamomile Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>白毫香綠茶(HOT壺裝/ICE)</td>
+							<td class="text-right"> $120</td>
+						</tr>
+						<tr>
+							<td>Pekoe Fresh Green Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>柚香桔茶(HOT壺裝/ICE) </td>
+							<td class="text-right">$110</td>
+						</tr>
+						<tr>
+							<td>Citron Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+							<tr>
+							<td>特製新鮮水果茶(HOT壺裝/ICE) </td>
+							<td class="text-right">$130</td>
+						</tr>
+						<tr>
+							<td>Fruit Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>經典鮮奶茶(HOT壺裝/ICE)</td>
+							<td class="text-right"> $130</td>
+						</tr>
+						<tr>
+							<td>Signature Milk Tea〔Hazelnut / Vanilla / Caramel / Brown Sugar 榛果/香草/焦糖/黑糖〕</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>宇治抹茶歐蕾(HOT/ICE)</td>
+							<td class="text-right"> $120</td>
+						</tr>
+						<tr>
+							<td>Matcha Au Lait</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tea">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>奶油伯爵(HOT壺裝) </td>
+							<td class="text-right">$130</td>
+						</tr>
+						<tr>
+							<td>Earl Grey Cream Black Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						 <tr>
+							<td>玫瑰茶(HOT壺裝/ICE)</td>
+							<td class="text-right"> $120</td>
+						</tr>
+						 <tr>
+							<td>Rose Tea</td>
+							<td>&nbsp;</td>
+						</tr>
+						 <tr>
+							<td>檸檬紅茶(HOT壺裝/ICE)</td>
+							<td class="text-right"> $100</td>
+						 </tr>
+						 <tr>
+							<td>Honey Lemon Tea</td>
+							<td>&nbsp;</td>
+						 </tr>
+						 <tr>
+							<td>蜜桃蘋果茶(HOT壺裝/ICE) </td>
+							<td class="text-right">$110</td>
+						 </tr>
+						 <tr>
+							<td>Peach Apple Tea</td>
+							<td>&nbsp;</td>
+						 </tr>
+						 <tr>
+							<td>洛梅水果香茶(HOT壺裝/ICE)</td>
+							<td class="text-right"> $130</td>
+						 </tr>
+						 <tr>
+							<td>Lome Fruit Tea</td>
+							<td>&nbsp;</td>
+						 </tr>
+						 <tr>
+							<td>牛奶歐蕾(HOT/ICE)</td>
+							<td class="text-right"> $100</td>
+						 </tr>
+						 <tr>
+							<td>Milk</td>
+							<td>&nbsp;</td>
+						 </tr>
+						 <tr>
+							<td>法式可可歐蕾(HOT/ICE)</td>
+							<td class="text-right"> $120</td>
+						 </tr>
+						 <tr>
+							<td>Chocolate Au Lait</td>
+							<td>&nbsp;</td>
+						 </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!--	ice	-->
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ice">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>奇異果冰沙</td>
+							<td class="text-right">$130</td>
+						</tr>
+						<tr>
+							<td>Kiwi Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>蘋果冰沙</td>
+							<td class="text-right">$130</td>
+						</tr>
+						<tr>
+							<td>Apple Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>咖啡冰沙</td>
+							<td class="text-right">$130</td>
+						</tr>
+						<tr>
+							<td>Iced Coffee Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>OREO巧克力冰沙</td>
+							<td class="text-right">$150</td>
+						</tr>
+						<tr>
+							<td>Oreo Chocolate Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>野莓冰沙</td>
+							<td class="text-right">$160</td>
+						</tr>
+						<tr>
+							<td>Wild Berry Smoothies</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ice">
+				<table border="0" cellspacing="0" cellpadding="0" class="drink-table">
+					<thead class="thead-hidden">
+						<tr>
+							<th scope="col">飲品項目</th>
+							<th scope="col">飲品價格</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>香蕉冰沙</td>
+							<td class="text-right"> $130</td>
+						</tr>
+						<tr>
+							<td>Banana Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>檸檬蜜冰沙</td>
+							<td class="text-right"> $130</td>
+						</tr>
+						<tr>
+							<td>Honey Lemon Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>鳳梨冰沙(季節限定)</td>
+							<td class="text-right"> $140</td>
+						</tr>
+						<tr>
+							<td>Pineapple Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>香芒冰沙(季節限定)</td>
+							<td class="text-right">$160</td>
+						</tr>
+						<tr>
+							<td>Mango Ice Blended</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+<!--	This is Map	-->
+	<div class="container" id="map">
+		<h1 class="pd_tb_30 text-center">聯絡我們</h1>
+		<hr>
+	</div>
+	<div class="container-fluid pd_tb_30">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.0670199416627!2d120.68065011498865!3d24.13428438440153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d1136b046b3%3A0x9c4578278aff4026!2zNDAy5Y-w5Lit5biC5Y2X5Y2A5b6p6IiI6Lev5LiJ5q61NTIw6Jmf!5e0!3m2!1szh-TW!2stw!4v1528284217159" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen class="gray"></iframe>
+	</div>
+	
+	
+<!--	This is Footer	-->
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
+            <p class="fas fa-map-marker-alt">台中市南區復興路三段520號</p>
+            <p class="fas fa-phone-square">. 04-22637458</p>
+            <p class="fas fa-envelope">. brunch@gmail.com</p>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12"> <img src="img/QR.svg" alt="" width="150" class="d-block ml-auto mr-auto QR"> </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
+            <p>© 黃柏勝- 網頁設計</p>
+            <p>本作品為課堂習作，虛擬商店，並無商業行為，特此聲明</p>
+            <p>本網站所有資料乃搜集自網路，版權屬原作者所有。</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+<!--	This is Top Button	-->
+	
+	<a href="#" class="fas fa-arrow-up top"></a>
+
+	
+    <script src="dist/jquery-3.3.1.js"></script>
+	<script src="dist/jquery.easing.1.3.js"></script>
+	<script src="dist/popper.min.js"></script>
+	<script src="dist/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+	<script src="dist/default.js"></script>
+</body>
+</html>

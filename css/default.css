@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+.nav-item{
+	color: black;
+}
+
+/*Carousel Css*/
+.carousel-indicators li{
+	width: 12px;
+	height: 12px;
+	border-radius: 100px;
+	margin: 0 10px;
+	border: 2px solid grey;
+	cursor: pointer;
+}
+.carousel-indicators .active{
+	width: 15px;
+	height: 15px;
+	border: 2px solid black;
+}
+.pd_tb_30{
+	padding: 30px;
+}
+footer{
+	background-color: #434343;
+	color: aliceblue;
+	font-size: 14px;
+	padding: 30px 0;
+}
+a{
+	text-decoration: none;
+}
+.btn-link{
+	color: black;
+}
+.btn-link:hover,.btn-link:focus{
+	color: #F75;
+	text-decoration: none;
+}
+.drink-bg{
+	background-image: url(../img/food_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 100px;
+	background-attachment: fixed;
+	background-color: black;
+}
+.m-lr-10{
+	margin: 0 10px;
+}
+/*Here is Table*/
+.drink-table{
+	width: 90%;
+	max-width: 100%;
+}
+.thead-hidden{
+	display: none;
+}
+.drink-table td{
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+.drink-table tr:nth-child(even){
+	border-bottom: 1px solid #AAA;
+}
+/*Top btn*/
+.top{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	font-size: 34px;
+	padding: 10px 12px;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	border-radius: 100px;
+	opacity: 0;
+}
+.top:hover,.top:focus{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+}
+body{
+	margin-top: 100px;
+}
+.tea,.ice{
+	display: none;
+}
+/*Horizon center*/
+.horizon-center{
+	display: flex;
+	justify-content: center;
+}
+.row div{
+	margin: 10px 0;
+}
+/*Map*/
+.gray{
+	filter: grayscale(100%);
+}
+
+/*PC Nav*/
+@media screen and (min-width: 992px){
+	.nav-item{
+		margin: 0 2px;
+	}
+	.nav-item:hover{
+		color: #FF7755;
+		font-weight: bold;
+	}
+	.iconbar a{
+		color: black;
+		font-size: 24px;
+		margin: 5px 10px 0px;
+		text-decoration: none;
+	}
+	.iconbar a:hover{
+		color: #00BEFB;
+	}
+}
+
+/*smart-phone,tablet Nav*/
+@media screen and (max-width: 991px){
+	.nav-item{
+		text-align: center;
+		border-bottom: 1px solid black;
+		padding: 15px;
+	}
+	.nav-item:focus{
+		background-color: black;
+		color: aliceblue;
+	}
+	.iconbar{
+		text-align: center;
+		width: 80%;
+		margin: 10px auto;
+	}
+	.iconbar a{
+		color: black;
+		font-size: 44px;
+		text-decoration: none;
+		margin: 0 15px;
+	}
+	.iconbar a:focus{
+		color: #00BEF8;
+	}
+	.navbar-toggler{
+		font-size: 44px;
+		padding-top: 15px;
+	}
+	.navbar-toggler:focus{
+		color: #FF7755;
+	}
+	.QR{
+		margin: 30px 0;
+	}
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 480px){
+	.carousel{
+		display: none;
+	}		
+}
